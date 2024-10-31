@@ -67,18 +67,30 @@
 }
 
 @media (max-width: 768px) {
-    .single-coffee__wrapper {
-        gap: 20px;
-    }
-    .single-coffee__img {
-        width: 292px;
-        height: 355px;
+    .single-coffee {
+        &__wrapper {
+            gap: 20px;
+        }
+        &__img {
+            width: 292px;
+            height: 355px;
+        }
     }
 }
 
 @media (max-width: 576px) {
-    .single-coffee__img {
-        width: 192px;
-        height: 355px;
+    .single-coffee {
+        &__wrapper {
+            flex-direction: column;
+            &-img {
+                text-align: center;
+            }
+            &-text {
+                text-align: center;
+            }
+            &-descr {
+                max-width: 600px;
+            }
+        }
     }
 }
