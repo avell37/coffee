@@ -7,7 +7,7 @@ import PleasurePage from '../pages/pleasurePage/pleasurePage';
 
 const App = () => {
     return (
-        <Router>
+        <Router  basename="/coffee-shop">
             <div className="app">
                 <Routes>
                     <Route end path="/" element={<MainPage/>} />
