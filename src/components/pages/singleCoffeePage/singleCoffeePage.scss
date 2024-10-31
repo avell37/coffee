@@ -50,7 +50,7 @@
             }
             font-size: 14px;
             line-height: 21px;
-            width: 420px;
+            max-width: 420px;
             margin-bottom: 16px;
         }
         &-price {
@@ -63,5 +63,22 @@
             line-height: 21px;
             font-weight: 600;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .single-coffee__wrapper {
+        gap: 20px;
+    }
+    .single-coffee__img {
+        width: 292px;
+        height: 355px;
+    }
+}
+
+@media (max-width: 576px) {
+    .single-coffee__img {
+        width: 192px;
+        height: 355px;
     }
 }

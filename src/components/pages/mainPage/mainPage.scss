@@ -55,6 +55,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
             gap: 71px;
         }
         &-item {
@@ -108,5 +109,11 @@
         a {
             color: #000;
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .coffee__aboutus-descr {
+        width: 350px;
     }
 }

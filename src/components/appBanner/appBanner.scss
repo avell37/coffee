@@ -35,3 +35,19 @@
         }
     }
 }
+
+@media (max-width: 1024px) {
+    .coffee {
+        &-header {
+            left: 90px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .coffee {
+        &-header {
+            left: 40px;
+        }
+    }
+}
