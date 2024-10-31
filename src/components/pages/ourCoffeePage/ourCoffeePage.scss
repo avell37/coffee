@@ -1,0 +1,18 @@
+.coffee {
+    &-our {
+        background: url('../../../resources/img/our-coffee-bg.png') center/cover no-repeat;
+        height: 300px;
+        &__title {
+            padding: 60px 0 154px 0;
+            color: #fff;
+            font-size: 40px;
+            text-align: center;
+            line-height: 58px;
+            font-weight: 700;
+        }
+        &__search {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

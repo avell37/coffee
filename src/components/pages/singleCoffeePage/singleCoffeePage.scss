@@ -1,0 +1,67 @@
+.single-coffee {
+    background: url('../../../resources/img/our-coffee-bg.png') center/cover no-repeat;
+    height: 300px;
+    &__title {
+        margin: 60px 0 84px 0;
+        color: #fff;
+        font-size: 40px;
+        line-height: 58px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__img {
+        width: 392px;
+        height: 355px;
+    }
+    &__wrapper {
+        margin: 170px auto 20px auto;
+        display: flex;
+        justify-content: center;
+        gap: 55px;
+        &-text {
+            margin-top: 10px;
+        }
+        &-title {
+            font-size: 24px;
+            line-height: 35px;
+            text-align: center;
+            margin-bottom: 21px;
+        }
+        &-decor {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 13px;
+        }
+        &-country {
+            span {
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 700;
+            }
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 16px;
+        }
+        &-descr {
+            span {
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 700;
+            }
+            font-size: 14px;
+            line-height: 21px;
+            width: 420px;
+            margin-bottom: 16px;
+        }
+        &-price {
+            span {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 21px;
+            }
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: 600;
+        }
+    }
+}
